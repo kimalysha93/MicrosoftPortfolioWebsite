@@ -1,0 +1,73 @@
+header {
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: midnightblue;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 20px;
+    background-color: aliceblue;
+}
+nav ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 90%;
+    display: block;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figure {
+    border-color: cornflowerblue;
+    background-color: cornflowerblue;
+    padding: 10px;
+    align-items: center;
+    font-size: small;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+    color: azure;
+}
+
+@media (max-width: 769px){
+    .grid-container, .skills-container, .flex-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
